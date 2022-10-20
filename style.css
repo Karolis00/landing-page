@@ -25,7 +25,7 @@ ul{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 6px 150px;
+    padding: 6px 200px;
     margin: 0;
 }
 
@@ -33,4 +33,47 @@ ul{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 125px 200px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    word-wrap: break-word;
+    width: 450px;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text > button{
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 13%;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #989898;
+    color: white;
+    padding: 75px 175px;
 }
