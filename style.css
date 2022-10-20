@@ -111,3 +111,27 @@ ul{
     margin-top: 8px;
     color: #6C6C6C;
 }
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 125px 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 25px;
+}
